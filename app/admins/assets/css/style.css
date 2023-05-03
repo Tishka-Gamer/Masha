@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Kurale;
+
+    --green-color: #b7d4b1;
+    --lightgreen-color: #d2f3be;
+    --darkgreen-color: #9cbd94;
+    --red-color: #d88989;
+    --light-color: #f7fff1;
+    --dark-color: #132e13;
+    --bs-primary-bg-subtle: #9cbd94;
+}
+
+/* подключение шрифта */
+@font-face {
+    font-family: "Kurale";
+    src: url("/assets/font/Kurale/Kurale-Regular.ttf");
+}
+
+.nav-item {
+    text-decoration: none;
+    color: var(--dark-color);
+
+    margin: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.auth {
+
+    margin-top: 20px;
+    padding: 20px;
+    border: 3px solid var(--green-color);
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+
+
+}
+
+.btn_vhod,
+.btn {
+    min-width: 200px;
+    border: 3px solid var(--green-color);
+    border-radius: 7px;
+    background-color: var(--green-color);
+}
+
+.btn_vhod:hover,
+.btn:hover {
+    background-color: var(--darkgreen-color);
+}
+
+
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid var(--light-color);
+    border-top: 5px solid var(--light-color);
+    border-bottom: 3px solid var(--light-color);
+    border-collapse: collapse;
+    outline: 3px solid var(--green-color);
+    font-size: 15px;
+    background: var(--light-color) !important;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 7px;
+    background: var(--green-color);
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid var(--light-color);
+    border-bottom: 3px solid var(--green-color);
+}
+
+.table td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #fff !important;
+}
+
+.icons {
+    width: 20px;
+}
+
+.btn-icons {
+    background-color: #132e1300;
+    border: 0;
+    border-radius: 50%;
+    height: 20px;
+
+
+}
+
+/* .btn-icons:hover{
+    background-color: #d889896f ;
+} */
+.td-flex,
+.div-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    padding: 20px;
+}
+
+.img-table {
+    width: 100px;
+}
+
+.shedule-btns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.insert-spec {
+    width: 80%;
+    padding: 20px;
+    border: 3px solid var(--green-color);
+    margin-bottom: 30px;
+}
+
+/* .form-control {
+    width: 50%;
+} */
+
+.right-p, .p-right {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: var(--red-color);
+}
+
+.form-create-spec {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.img-show{
+    max-width: 300px;
+}
+/* 
+.table-show{
+   
+    border: 0;
+}
+
+.table-show > tbody > tr > td {
+    padding: 10px;
+    border: 3px solid var(--green-color);
+}  */
+
+.width100{
+    width: 100%;
+}
+
+.table-show{
+    min-width: 30%;
+    max-width: 50%;
+}
+
+.myselect{
+    width: 40%;
+}
+
+.shedule-by-date > tbody > tr > td{
+    padding: 20px;
+}
+
+a{
+    color: #132e13;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--darkgreen-color);
+}
